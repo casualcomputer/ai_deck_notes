@@ -33,7 +33,7 @@ This checklist lists various considerations for installing Python-based, open-so
 ✅ **Yes** → List the required API endpoints or external services (e.g., LLM API endpoints from AWS, Azure, or other cloud-based APIs).  
 ❌ **No** → Continue to the next consideration.
 
-> **Note:** Some applications may require both additional software and API connectivity. Ensure that all dependencies are fully documented and verified before proceeding.
+> **Note:** If the application requires external API calls, approval from your **IT Branch**, **AI Centre of Expertise**, or **Chief Data Office** may be required. Check with these teams before proceeding with installation.
 
 ---
 
@@ -41,7 +41,7 @@ This checklist lists various considerations for installing Python-based, open-so
 ### Is the software (and its dependencies) approved by your department?
 ✅ **Yes** → Verify that the approved software and services are compatible with the AI app.  
 ❌ **No** → Can you request approval for the software and API usage?
-- 🔍 **Who is responsible for approvals?** (e.g., IT Security, Procurement, Legal)  
+- 🔍 **Who is responsible for approvals?** (e.g., IT Security, Procurement, Legal, AI Centre of Expertise, Chief Data Office)  
 - 🔍 **Approval Process & Timeline:** What’s the process, and how long does it typically take? Does your project deadline fit within the approval timeline?
 
 ### Costs and Requirements for Software Approval:
@@ -73,4 +73,4 @@ This checklist lists various considerations for installing Python-based, open-so
 
 ### Hardware Maintenance:
 - 🔍 **Support for Hardware:** Does your department offer support for specialized hardware (e.g., GPUs)?  
-- 🔍 **Software Updates:** What is the process for maintaining the software, especially if it’s running on specialized hardware?
+- 🔍 **Software Updates:** What is the process for maintaining the software, especially if it’s running on specialized hardware?  
