@@ -8,4 +8,9 @@ gpro is definitely feasible:
   think one automate the data generation step, with human's supervision -> Q&A (with steps or without steps)
   any non-determinsitc but reliable reward function definitions? https://docs.unsloth.ai/basics/reasoning-grpo-and-rl#reward-functions-verifier
   - with respect to search probelms, gpro reward functions can penalize wrong search results, thereby mimicking useful search. the reward function definition is pretty sus tho 
+
+basic reasoning 
+  - https://unsloth.ai/blog/r1-reasoning
+  - https://docs.unsloth.ai/basics/reasoning-grpo-and-rl#reward-functions-verifier
+
 use pdf front end to generate and store highlights of a website to ask unsloth questions
