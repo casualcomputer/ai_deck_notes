@@ -1,0 +1,10 @@
+chunking methods: https://masteringllm.medium.com/11-chunking-strategies-for-rag-simplified-visualized-df0dbec8e373
+  - why there is no visualizer for this? 
+  - is there way to evalaute this with human supervision? existing AI workloads. 
+gpro is definitely feasible:
+  - sources: https://huggingface.co/blog/prithivMLmods/smollm-grpo-ft
+  - datasets: https://huggingface.co/datasets/openai/gsm8k/viewer/main/train?p=1&views%5B%5D=main_train, https://docs.unsloth.ai/basics/datasets-101
+  think one automate the data generation step, with human's supervision -> Q&A (with steps or without steps)
+  any non-determinsitc but reliable reward function definitions? https://docs.unsloth.ai/basics/reasoning-grpo-and-rl#reward-functions-verifier
+  - with respect to search probelms, gpro reward functions can penalize wrong search results, thereby mimicking useful search. the reward function definition is pretty sus tho 
+use pdf front end to generate and store highlights of a website to ask unsloth questions
